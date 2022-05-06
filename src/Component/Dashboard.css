@@ -41,3 +41,67 @@
   height: 948px;
   width: 698px;
 }
+.climate {
+  display: flex;
+  justify-content: space-evenly;
+}
+.time {
+  position: absolute;
+  width: 105px;
+  height: 210px;
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 100px;
+  margin-top: 28px;
+  margin-left: 0px;
+}
+.specification {
+  font-family: "Inter";
+  margin-left: 6px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height, or 34px */
+  color: #ffffff;
+  text-shadow: -1.51px 2.26px 0.75px rgba(0, 0, 0, 0.1);
+}
+.sunrise {
+  margin-top: 134px;
+}
+.ghour {
+  margin-top: 45px;
+}
+.ghourbox {
+  height: 280px;
+  width: 140px;
+  margin-left: 16px;
+}
+.line {
+  border-bottom: 2px solid white;
+}
+.airQuality {
+  margin-top: 300px;
+  border-top: 1px solid white;
+  margin-left: 48px;
+  margin-right: 75px;
+}
+p {
+  margin-top: 10px;
+}
+.date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  margin-left: 78px;
+  margin-top: 35%;
+  color: #ffffff;
+
+  text-shadow: -1.51px 2.26px 0.75px rgba(0, 0, 0, 0.1);
+}
+.details {
+  display: flex;
+  justify-content: space-around;
+}

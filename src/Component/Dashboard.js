@@ -3,8 +3,14 @@ import  "./Dashboard.css"
 import InputSearch from "./InputSearch"
 import CloudIcon from "./images/cloud.svg"
 import MoonIcon from "./images/moon.svg"
+import WindIcon from "./images/Vector (10).svg"
+import HumIcon from "./images/Vector (11).svg"
+
+
+
 class DashBoard extends React.Component
 {
+    
     constructor(props)
     {
         super(props);
@@ -13,7 +19,9 @@ class DashBoard extends React.Component
             humidity : "" ,
             weather : "",
             date : "",
-            searchCity : ""
+            searchCity : "",
+            
+            
         }
 
     }
@@ -37,17 +45,20 @@ class DashBoard extends React.Component
         }  
   render()
   {
+    
       return (
           <div className="container">
               <div className="content">
                   <img className="MoonIcon" src={MoonIcon} alt="icon"></img>
                   <img className="cloudIcon" src={CloudIcon} alt="icon"></img>
                   <div className="temp">{this.state.weather}</div>
+                  <div className="date ">{this.state.date}</div>
+                  <div className="details">
+                  <div><img src={WindIcon} alt="wind"></img>Wind     {this.state.wind}</div>
+                  <div><img src={HumIcon} alt="humidity"></img>Humidity {this.state.humidity}</div>
+                  <div><img src={HumIcon} alt="humidity"></img>Humidity {this.state.humidity}</div>
+                </div>
                    
-                    <h1>{this.state.wind}</h1>
-                    <h1>{this.state.humidity}</h1>
-                    
-                    <h1>{this.state.date}</h1>
                                        
               </div>
               <div className="form">
@@ -55,7 +66,25 @@ class DashBoard extends React.Component
                    value = {this.state.searchCity}
                    setSearchCity = {this.getCity}
                    onClick={() => this.getWeather()}/>
+                   <div className="climate">
+                        <div> <div className="specification sunrise">Sunrise</div>
+                            <div  className="time"> </div> 
+                        </div>
+                        <div> <div className="specification ghour">Golden Hour</div>
+                            <div  className="time ghourbox"> </div> 
+                        </div>
+                        <div> <div className="specification sunrise">Sunset</div>
+                              <div  className="time"> </div> 
+                        </div>
+                    </div>
+                    <div className="airQuality"> </div>
+                    <p>i</p>
+                    <div>
+                    
+                    </div>
+                        
               </div>
+              
           </div>
       )
   }
