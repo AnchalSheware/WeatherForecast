@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+}
+.content {
+  height: 948px;
+  width: 1140px;
+  background: linear-gradient(248.66deg, #f0b5ce 0%, #8c6bae 100%);
+  background-repeat: no-repeat;
+}
+.cloudIcon {
+  position: absolute;
+  margin-left: 82.09px;
+  margin-bottom: 733px;
+  margin-top: 87.7px;
+}
+.MoonIcon {
+  position: absolute;
+  left: 9.75%;
+  right: 85.07%;
+  top: 15.99%;
+  bottom: 75.68%;
+
+  background: #713ffd;
+  transform: rotate(180deg);
+}
+.temp {
+  position: absolute;
+  left: 4.58%;
+  right: 82.08%;
+  top: 21.33%;
+  bottom: 56.78%;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 130px;
+  line-height: 197px;
+  color: #ffffff;
+}
+.form {
+  background: linear-gradient(248.66deg, #f0b5ce 0%, #8c6bae 100%);
+  background-repeat: no-repeat;
+  height: 948px;
+  width: 698px;
+}

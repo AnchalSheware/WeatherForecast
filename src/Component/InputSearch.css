@@ -1,0 +1,17 @@
+.locationIcon {
+  margin-top: 53.67px;
+  margin-left: 44px;
+}
+input {
+  margin-top: 52px;
+  margin-left: 35.37px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 120%;
+  color: #ffffff;
+  text-shadow: -1.51px 2.26px 0.75px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  border: 0px solid transparent;
+}
