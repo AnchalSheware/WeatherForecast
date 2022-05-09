@@ -15,25 +15,29 @@
 }
 .MoonIcon {
   position: absolute;
-  left: 9.75%;
-  right: 85.07%;
-  top: 15.99%;
+  left: 5.75%;
+  right: 17.07%;
+  top: 3.99%;
   bottom: 75.68%;
+  transform: translate(-56%, -27%);
 
-  background: #713ffd;
-  transform: rotate(180deg);
+  box-shadow: 28px 45px 0 5px #713ffd;
+  border-radius: 150%;
 }
 .temp {
   position: absolute;
-  left: 4.58%;
-  right: 82.08%;
-  top: 21.33%;
-  bottom: 56.78%;
   font-family: "Inter";
   font-style: normal;
-  font-size: 130px;
-  line-height: 197px;
+  font-size: 140px;
   color: #ffffff;
+  margin-top: 12%;
+  margin-left: 69px;
+}
+
+sup {
+  font-size: 36px;
+  position: absolute;
+  top: 16%;
 }
 .form {
   background: linear-gradient(248.66deg, #f0b5ce 0%, #8c6bae 100%);
@@ -78,6 +82,9 @@
 }
 .line {
   border-bottom: 2px solid white;
+  margin-top: 295px;
+  width: 73%;
+  margin-left: 14%;
 }
 .airQuality {
   margin-top: 300px;
@@ -85,6 +92,7 @@
   margin-left: 48px;
   margin-right: 75px;
 }
+
 p {
   margin-top: 10px;
 }
@@ -104,4 +112,145 @@ p {
 .details {
   display: flex;
   justify-content: space-around;
+  width: 72%;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 28px;
+  margin-left: 52px;
+  margin-top: 40px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+}
+.furtherDayDetail {
+  margin-top: 140px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+}
+.arrow {
+  width: 26.5px;
+  height: 35.5px;
+  margin-top: 80px;
+}
+.arc1 {
+  position: absolute;
+  left: 67%;
+  top: 82.52%;
+}
+.arc2 {
+  position: absolute;
+  top: 79%;
+  left: 67.6%;
+}
+.arc3 {
+  position: absolute;
+
+  left: 69.5%;
+  top: 77.5%;
+}
+.arc4 {
+  position: absolute;
+  top: 77.5%;
+  left: 72%;
+}
+.arc5 {
+  position: absolute;
+  left: 74.4%;
+  top: 79%;
+}
+.arc6 {
+  position: absolute;
+  top: 82.7%;
+  left: 76%;
+}
+.Pointer {
+  position: absolute;
+  top: 78%;
+  left: 69.5%;
+}
+.arc11 {
+  position: absolute;
+  left: 85%;
+  top: 82.52%;
+}
+.arc21 {
+  position: absolute;
+  top: 79%;
+  left: 85.6%;
+}
+.arc31 {
+  position: absolute;
+
+  left: 87.5%;
+  top: 77.5%;
+}
+.arc41 {
+  position: absolute;
+  top: 77.5%;
+  left: 90%;
+}
+.arc51 {
+  position: absolute;
+  left: 92.4%;
+  top: 79%;
+}
+.arc61 {
+  position: absolute;
+  top: 82.4%;
+  left: 94%;
+}
+.Pointer1 {
+  position: absolute;
+  top: 78%;
+  left: 91.7%;
+}
+span {
+  position: absolute;
+  top: 68%;
+  left: 68%;
+}
+p {
+  position: absolute;
+  left: 87%;
+  top: 67%;
+}
+.meter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.rating1 {
+  top: 84%;
+  left: 89%;
+  font-size: 20px;
+}
+.mv1 {
+  top: 80%;
+  left: 89%;
+  font-size: 20px;
+}
+.i {
+  position: absolute;
+  top: 57%;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  left: 96%;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.23);
 }
